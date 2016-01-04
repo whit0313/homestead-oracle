@@ -1,3 +1,6 @@
+## Homestead box for Circe
+This fork was created for the [Circe app](https://bitbucket.org/wall0252/circe/) (private repo)  by the Student Systems team at Flinders University.
+
 ## Laravel Homestead with Oracle XE 11g
 This project enables you to install Oracle 11g XE on Laravel's Homestead [base box](https://atlas.hashicorp.com/laravel/boxes/homestead), using
 [Vagrant] and [Puppet].
@@ -20,7 +23,7 @@ This project was created based on the information in the following projects:
 
 * Check out this project:
 
-        git clone https://github.com/yajra/homestead-oracle.git
+        git clone https://github.com/whit0313/homestead-oracle.git
 
 * Install [vbguest]:
 
