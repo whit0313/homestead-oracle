@@ -231,5 +231,10 @@ class Homestead
         ]
       end
     end
+
+    # install Circe dependencies
+    config.vm.provision "shell" do |s|
+      s.path = "./scripts/install_circe_dependancies.sh"
+    end
   end
 end

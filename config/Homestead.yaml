@@ -1,6 +1,6 @@
 ---
 ip: "192.168.10.10"
-memory: 2048
+memory: 1048
 cpus: 1
 provider: virtualbox
 
@@ -10,12 +10,18 @@ keys:
     - ~/.ssh/id_rsa
 
 folders:
-    - map: ~/Code
+    - map: C:/Code
       to: /home/vagrant/Code
 
 sites:
     - map: homestead.app
       to: /home/vagrant/Code/Laravel/public
+    - map: circe.app
+      to: /home/vagrant/Code/circe/public
+    - map: gv1tr.app
+      to: /home/vagrant/Code/gv1tr
+
+# It looks like this is the file that actually gets used.
 
 databases:
     - homestead
