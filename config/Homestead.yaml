@@ -20,11 +20,15 @@ sites:
       to: /home/vagrant/Code/circe/public
     - map: gv1tr.app
       to: /home/vagrant/Code/gv1tr
+    - map: apollo.app
+      to: /home/vagrant/Code/apollo/public
 
 # It looks like this is the file that actually gets used.
 
 databases:
     - homestead
+    - apollo
+    - circe
 
 variables:
     - key: APP_ENV
