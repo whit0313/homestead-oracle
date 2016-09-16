@@ -232,7 +232,12 @@ class Homestead
       end
     end
 
-    # install Circe dependencies
+    # install GV1tr dependencies
+    config.vm.provision "shell" do |s|
+      s.path = "./scripts/install_gv1tr_dependancies.sh"
+    end
+    
+	# install Circe dependencies
     config.vm.provision "shell" do |s|
       s.path = "./scripts/install_circe_dependancies.sh"
     end
