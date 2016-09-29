@@ -6,8 +6,8 @@ apt-get -y install default-jre
 echo 'Installing php5-intl...'
 apt-get -y install php5-intl
 
-echo 'Installing php5-ldap...'
-apt-get -y install php5-ldap
+echo 'Installing php7-ldap...'
+apt-get -y install php7.0-ldap
 
 echo 'Installing php-codesniffer...'
 apt-get -y install php-codesniffer
